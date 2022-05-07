@@ -49,6 +49,24 @@ class Xylophone extends StatelessWidget {
 
               ),
             ),
+            Expanded(
+              child: FlatButton(
+                color: Colors.orange,
+                onPressed: (){
+                  playSound(2); },
+                child: Text('click out'),
+
+              ),
+            ),
+            Expanded(
+              child: FlatButton(
+                color: Colors.orange,
+                onPressed: (){
+                  playSound(2); },
+                child: Text('click out'),
+
+              ),
+            ),
 
             Expanded(
               child: FlatButton(
