@@ -28,7 +28,29 @@ class Xylophone extends StatelessWidget {
         body:Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-           
+
+            Expanded(
+              child:
+              FlatButton(
+                color: Colors.red,
+                onPressed: (){
+                  playSound(1);
+                },
+                child: Text('click me'),
+
+              ),
+            ),
+            Expanded(
+              child:
+              FlatButton(
+                color: Colors.red,
+                onPressed: (){
+                  playSound(1);
+                },
+                child: Text('click me'),
+
+              ),
+            ),
             Expanded(
               child:
               FlatButton(
