@@ -71,24 +71,8 @@ class Xylophone extends StatelessWidget {
 
               ),
             ),
-            Expanded(
-              child: FlatButton(
-                color: Colors.orange,
-                onPressed: (){
-                  playSound(2); },
-                child: Text('click out'),
 
-              ),
-            ),
-            Expanded(
-              child: FlatButton(
-                color: Colors.orange,
-                onPressed: (){
-                  playSound(2); },
-                child: Text('click out'),
 
-              ),
-            ),
 
             Expanded(
               child: FlatButton(
@@ -99,15 +83,7 @@ class Xylophone extends StatelessWidget {
 
               ),
             ),
-            Expanded(
-              child: FlatButton(
-                color: Colors.orange,
-                onPressed: (){
-                  playSound(2); },
-                child: Text('click me'),
 
-              ),
-            ),
             Expanded(child:
             FlatButton(
               color: Colors.yellow,
@@ -128,6 +104,27 @@ class Xylophone extends StatelessWidget {
 
               ),
             ),
+            Expanded(
+              child: FlatButton(
+                color: Colors.green,
+                onPressed: (){
+                  playSound(4);
+                },
+                child: Text('click me'),
+
+              ),
+            ),
+            Expanded(
+              child: FlatButton(
+                color: Colors.green,
+                onPressed: (){
+                  playSound(4);
+                },
+                child: Text('click me'),
+
+              ),
+            ),
+
             Expanded(
               child: FlatButton(
                 color: Colors.teal,
